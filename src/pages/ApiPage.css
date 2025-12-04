@@ -1,0 +1,76 @@
+.api-container {
+  direction: rtl;
+  text-align: center;
+  padding: 30px;
+  font-family: 'Alef', Arial, sans-serif;
+}
+
+.api-title {
+  font-size: 40px;
+  margin-bottom: 10px;
+  font-weight: 800;
+}
+
+.api-subtitle {
+  color: #444;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.loading-text {
+  font-size: 22px;
+  color: #555;
+}
+
+.meals-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.meal-card {
+  background: #f0fff4;
+  border: 2px solid #2ecc71;
+  border-radius: 15px;
+  padding: 15px;
+  transition: 0.3s;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.meal-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+.meal-img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.meal-title {
+  font-size: 22px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.meal-info p {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+.meal-btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 14px;
+  background: #27ae60;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.meal-btn:hover {
+  background: #1e874b;
+}

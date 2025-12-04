@@ -1,0 +1,131 @@
+.home-container {
+  direction: rtl;
+  font-family: 'Heebo', sans-serif;
+  text-align: center;
+  background: #fafafa;
+  padding-bottom: 50px;
+}
+
+/* HERO */
+.hero {
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #2ecc71, #27ae60);
+  color: white;
+  border-radius: 0 0 40px 40px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+}
+
+.hero-title {
+  font-size: 45px;
+  font-weight: 800;
+}
+
+.hero-subtitle {
+  font-size: 20px;
+  margin: 15px 0;
+}
+
+.cta-btn {
+  padding: 14px 30px;
+  background: white;
+  color: #27ae60;
+  border: none;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+.cta-btn:hover {
+  background: #ecf0f1;
+}
+
+/* SECTION TITLE */
+.section-title {
+  margin-top: 40px;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+/* TRAINING GRID */
+.training-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.training-card {
+  background: white;
+  border-radius: 20px;
+  padding: 30px 20px;
+  box-shadow: 0 3px 15px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.training-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+.icon {
+  font-size: 50px;
+  margin-bottom: 10px;
+  color: #27ae60;
+}
+
+/* GOAL SECTION */
+.goal-section {
+  margin-top: 50px;
+}
+
+.goal-input {
+  width: 250px;
+  padding: 12px;
+  font-size: 18px;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+}
+
+.goal-btn {
+  background: #27ae60;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 12px;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.goal-btn:hover {
+  background: #219150;
+}
+
+/* BENEFITS SECTION */
+.benefits-section {
+  margin-top: 60px;
+}
+
+.benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.benefit-card {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  font-size: 18px;
+}
